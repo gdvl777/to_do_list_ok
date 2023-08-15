@@ -15,7 +15,7 @@ export const addTask = (tasks, description) => {
 
 export const deleteTask = (tasks, index) => {
   tasks.splice(index, 1);
-  for (let i = index; i < tasks.length;i++) {
+  for (let i = index; i < tasks.length; i++) {
     tasks[i].index = i + 1;
   }
   saveTasks(tasks);
