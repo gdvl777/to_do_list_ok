@@ -15,12 +15,13 @@ export const addTask = (tasks, description) => {
 
 export const deleteTask = (tasks, index) => {
   tasks.splice(index, 1);
-  tasks.forEach((task, i) => {
-    task.index = i + 1;
-  });
+  for (let i = index; i < tasks.length; i++) {
+    tasks[i].index = i + 1;
+  }
   saveTasks(tasks);
   return tasks;
 };
+
 
 export const editTask = (tasks, index, newDescription) => {
   tasks[index].description = newDescription;
