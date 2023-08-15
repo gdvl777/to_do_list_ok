@@ -22,7 +22,6 @@ export const deleteTask = (tasks, index) => {
   return tasks;
 };
 
-
 export const editTask = (tasks, index, newDescription) => {
   tasks[index].description = newDescription;
   saveTasks(tasks);
