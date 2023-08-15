@@ -70,7 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> You can see a Demo here: [Demo](https://claudiarojassoto.github.io/toDo_list/dist/)
+> You can see a Demo here: [Demo](https://gdvl777.github.io/to_do_list_ok/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,11 +84,11 @@
 
 -Clone this repository to your local machine using:
 
- git clone https://github.com/ClaudiaRojasSoto/toDo_list.git
+ git clone https://github.com/gdvl777/to_do_list_ok.git
 
 -Navigate to the project folder:
 
- cd toDo_list
+ cd to_do_list_ok
 
 -Install the project dependencies:
 
@@ -111,7 +111,7 @@ webpack.config.js: Webpack configuration file.
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/ClaudiaRojasSoto/toDo_list.git
+Clone this repository to your desired folder: https://github.com/gdvl777/to_do_list_ok.git
 
 ### Install
 
@@ -129,8 +129,8 @@ To run tests, run the following command: you just need a simple web browser to r
 
 👤 **Author1**
 
--   GitHub: [@githubhandle](https://github.com/ClaudiaRojasSoto)
--   LinkedIn: [LinkedIn](https://www.linkedin.com/in/claudia-soto-260504208/)
+-   GitHub: [@gdvl777](https://github.com/gdvl777)
+-   LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,7 +147,7 @@ To run tests, run the following command: you just need a simple web browser to r
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/toDo_list/issues).
+Feel free to check the [issues page](https://github.com/gdvl777/to_do_list_ok/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,6 +171,6 @@ Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/toDo_li
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT licensed](https://github.com/ClaudiaRojasSoto/toDo_list/blob/master/MIT.md).
+This project is [MIT licensed](https://github.com/gdvl777/to_do_list_ok/blob/master/MIT.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
