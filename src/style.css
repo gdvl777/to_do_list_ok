@@ -98,6 +98,17 @@ h1 {
   color: #808080;
 }
 
+#clear-completed- {
+  flex-grow: 1;
+  margin: 0;
+  border: none;
+  background-color: #d3d3d3;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  color: #808080;
+}
+
 .editable:focus {
   outline: none;
 }
