@@ -121,15 +121,3 @@ enterIcon.addEventListener('keypress', (event) => {
 
 renderTasks();
 saveTasks(tasks);
-
-const clearButton = document.getElementById('clear-completed');
-
-clearButton.addEventListener('click', () => {
-  tasks = JSON.parse(localStorage.getItem('tasks')) || [];
-
-  tasks = tasks.filter((task) => !task.completed);
-
-  localStorage.setItem('tasks', JSON.stringify(tasks));
-
-  renderTasks();
-});
