@@ -1,4 +1,5 @@
 // eslint-disable-next-line no-unused-vars
+import { addTask, deleteTask } from '../taskFunctions.js';
 const localStorageMock = {
   getItem: jest.fn(),
   setItem: jest.fn(),
@@ -6,8 +7,6 @@ const localStorageMock = {
 };
 
 global.localStorage = localStorageMock;
-
-import { addTask, deleteTask } from '../taskFunctions.js';
 
 describe('taskFunctions', () => {
   describe('addTask', () => {
@@ -25,5 +24,4 @@ describe('taskFunctions', () => {
       expect(newTasks).toHaveLength(0);
     });
   });
-
 });
