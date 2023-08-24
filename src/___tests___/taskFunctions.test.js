@@ -11,16 +11,16 @@ import { saveTasks, addTask, deleteTask, editTask } from '../taskFunctions.js';
 
 describe('taskFunctions', () => {
   describe('addTask', () => {
-    test('agrega una tarea a la lista', () => {
+    test('It adds a new task into the list', () => {
       const tasks = [];
-      const newTasks = addTask(tasks, 'Nueva tarea');
+      const newTasks = addTask(tasks, 'New task');
       expect(newTasks).toHaveLength(1);
-      expect(newTasks[0]).toMatchObject({ description: 'Nueva tarea', completed: false, index: 1 });
+      expect(newTasks[0]).toMatchObject({ description: 'New task', completed: false, index: 1 });
     });
   });
   describe('deleteTask', () => {
-    test('elimina una tarea de la lista', () => {
-      const tasks = [{ description: 'Tarea 1', completed: false, index: 1 }];
+    test('It removes a new task into the list', () => {
+      const tasks = [{ description: 'Task 1', completed: false, index: 1 }];
       const newTasks = deleteTask(tasks, 0);
       expect(newTasks).toHaveLength(0);
     });
