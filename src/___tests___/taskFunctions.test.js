@@ -2,12 +2,12 @@
 const localStorageMock = {
   getItem: jest.fn(),
   setItem: jest.fn(),
-  clear: jest.fn()
+  clear: jest.fn(),
 };
 
 global.localStorage = localStorageMock;
 
-import { saveTasks, addTask, deleteTask, editTask } from '../taskFunctions.js';
+import { addTask, deleteTask } from '../taskFunctions.js';
 
 describe('taskFunctions', () => {
   describe('addTask', () => {
