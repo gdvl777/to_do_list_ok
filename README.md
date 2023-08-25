@@ -132,11 +132,12 @@ To run tests, run the following command: you just need a simple web browser to r
 -   GitHub: [@gdvl777](https://github.com/gdvl777)
 -   LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
-    👤 **Esteban Palacios**
+👤 **Author2**
 
-- GitHub: [@Estete9](https://github.com/Estete9)
-- Twitter: [@NaughTban](https://twitter.com/NaughTban)
-- LinkedIn: [Esteban Palacios](https://www.linkedin.com/in/esteban-palacios-5030a772/)
+- GitHub: [@EngruugbeJimmy](github.com/EngruugbeJimmy)
+- Twitter: [@abbaJdev](https://twitter.com/abbaJdev)
+- LinkedIn: [ABAH JAMES UGBEDEOJO](https://www.linkedin.com/in/james-ugbedeojo-abah-356982159)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
