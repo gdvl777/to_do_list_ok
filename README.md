@@ -134,7 +134,7 @@ To run tests, run the following command: you just need a simple web browser to r
 
 👤 **Author2**
 
-- GitHub: [@EngruugbeJimmy](github.com/EngruugbeJimmy)
+- GitHub: [@EngruugbeJimmy](https://github.com/EngruugbeJimmy)
 - Twitter: [@abbaJdev](https://twitter.com/abbaJdev)
 - LinkedIn: [ABAH JAMES UGBEDEOJO](https://www.linkedin.com/in/james-ugbedeojo-abah-356982159)
 
