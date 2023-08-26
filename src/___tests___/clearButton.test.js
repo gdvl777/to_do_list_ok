@@ -3,7 +3,9 @@ import path from 'path';
 import { JSDOM } from 'jsdom';
 
 describe('clearButton', () => {
-  let window, document, clearButton;
+  let window;
+  let document;
+  let clearButton;
 
   beforeAll(() => {
     const html = fs.readFileSync(path.resolve(__dirname, '../index.html'), 'utf-8');
