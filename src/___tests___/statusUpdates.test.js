@@ -21,5 +21,4 @@ describe('updateTaskStatus', () => {
     expect(tasks[0].completed).toBe(true);
     expect(saveTasks).toHaveBeenCalledWith(tasks);
   });
-
 });

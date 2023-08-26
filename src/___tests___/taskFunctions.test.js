@@ -1,4 +1,4 @@
-import { addTask, deleteTask } from '../taskFunctions.js';
+import { addTask, deleteTask, editTask } from '../taskFunctions.js';
 
 const localStorageMock = {
   getItem: jest.fn(),
