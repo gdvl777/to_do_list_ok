@@ -1,4 +1,4 @@
-import { addTask, deleteTask } from '../taskFunctions.js';
+import { addTask, deleteTask,editTask } from '../taskFunctions.js';
 
 const localStorageMock = {
   getItem: jest.fn(),
@@ -22,6 +22,13 @@ describe('taskFunctions', () => {
       const tasks = [{ description: 'Task 1', completed: false, index: 1 }];
       const newTasks = deleteTask(tasks, 0);
       expect(newTasks).toHaveLength(0);
+    });
+  });
+  describe('editTask', () => {
+    test('edita la descripción de una tarea', () => {
+      const tasks = [{ description: 'Tarea 1', completed: false, index: 1 }];
+      const newTasks = editTask(tasks, 0, 'Nueva descripción');
+      expect(newTasks[0].description).toBe('Nueva descripción');
     });
   });
 });
