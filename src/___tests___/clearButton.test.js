@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-
+import { JSDOM } from 'jsdom';
 
 describe('clearButton', () => {
   let window;
