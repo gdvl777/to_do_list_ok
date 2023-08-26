@@ -35,5 +35,6 @@
   },
   "transform": {
   "^.+\\.js$": "babel-jest"
-  }
+  },
+  "setupFilesAfterEnv": ["<rootDir>/path/to/jsdom-setup.js"]
 }
