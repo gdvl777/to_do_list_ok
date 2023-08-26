@@ -2,7 +2,7 @@ import './style.css';
 import {
   addTask, deleteTask, editTask, saveTasks,
 } from './taskFunctions.js';
-import updateTaskStatus from './statusUpdates.js';
+import { updateTaskStatus } from './statusUpdates.js';
 
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
